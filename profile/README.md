@@ -1,16 +1,32 @@
-# Convergent Systems
+# convergent-systems-co
 
-We build practical tools that get out of your way.
+> Civilization-grade software infrastructure.
 
-## What We Make
+We build **deterministic, auditable, reproducible** developer tooling.
+Local-first by default. Open-source first. CI/CD native.
 
-### [gitignore](https://github.com/convergent-systems-co/gitignore)
-A fast CLI for managing `.gitignore` files. Pulls templates from
-GitHub and Toptal, merges them cleanly, keeps your repo tidy.
-Install via Homebrew or Scoop.
+## Active projects
 
-### [Human Graph](https://human-graph.net)
-World-wide genealogy, built on evidence and emergent canonical truth.
+| Project | What it does | Status |
+|---|---|---|
+| [aish](https://github.com/convergent-systems-co/aish) | AI-native POSIX-style shell | mid-v0.2 |
+| [macforge](https://github.com/convergent-systems-co/macforge) | macOS release automation: sign, notarize, package, publish | active |
+| [gitignore](https://github.com/convergent-systems-co/gitignore) | Gitignore file management | active |
 
-## Contact
-[thomas@convergent-systems.co](mailto:thomas@convergent-systems.co)
+## Standards
+
+- [`repo-standards`](https://github.com/convergent-systems-co/repo-standards) — label catalog and reusable workflows (triage, cleanup, sync)
+- [`go-tf-app-template`](https://github.com/convergent-systems-co/go-tf-app-template) — starter for Go + Terraform projects
+
+## Principles
+
+- **Determinism.** Same input, same output. Reproducible builds, pinned dependencies, immutable releases.
+- **Auditability.** Every meaningful action leaves a trace.
+- **Local private key ownership.** Your keys, your machine.
+- **No paywalled commodity.** Standard infrastructure should not be a recurring subscription.
+
+## Get involved
+
+Open an issue on any project. Issues are auto-triaged via
+[`repo-standards`](https://github.com/convergent-systems-co/repo-standards)'s
+agentic pipeline.
