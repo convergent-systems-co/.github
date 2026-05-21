@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security report
+    url: mailto:security@convergent-systems.co
+    about: Do NOT open public issues for security findings. Email instead.
+  - name: Community / questions
+    url: https://github.com/orgs/convergent-systems-co/discussions
+    about: General questions and discussions.

@@ -1,0 +1,26 @@
+name: Bug
+description: Something is broken in a convergent-systems-co project
+title: "[Bug] "
+labels: ["kind/bug", "status/triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting. Triage is automated — labels and missing
+        sections are filled by [`repo-standards`](https://github.com/convergent-systems-co/repo-standards)'s
+        agent shortly after submission.
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened
+    validations: { required: true }
+  - type: textarea
+    id: repro
+    attributes:
+      label: Steps to reproduce
+    validations: { required: true }
+  - type: textarea
+    id: env
+    attributes:
+      label: Environment
+      description: Version, OS, anything relevant.
